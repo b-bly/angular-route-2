@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+   
+        <title></title>
+        
+        <script src="vendors/angular.js"></script>
+        <script src="vendors/angular-route.js"></script>
+        <script src="client.js"></script>
+        <script src="controllers/yellow.controller.js"></script>
+        <script src="controllers/blue.controller.js"></script>
+        <script src="controllers/red.controller.js"></script>
+        <script src="controllers/green.controller.js"></script>
+        <link rel="stylesheet" href="vendors/bootstrap.css">
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <script src"vendors/carousel.js/"></script>
+    </head>
+
+    <body ng-app="ColorApp">
+        <header>
+            <nav class="navbar navbar-inverse bg-inverse">
+                    <ul class="nav navbar-nav">
+                            <li><a href="#!">home</a></li>
+                            <li><a href="#!red">red</a></li>
+                            <li><a href="#!yellow">yellow</a></li>
+                            <li><a href="#!blue">blue</a></li>
+                            <li><a href="#!green">green</a></li>
+                        </ul>
+            </nav>
+        </header>
+        Color Home
+        
+        <div>
+                
+            </div>
+        <ng-view></ng-view>
+
+        <footer></footer>
+    </body>
+</html>
